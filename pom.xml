@@ -23,17 +23,17 @@
 		</dependency>
 
 
-	<!-- Dependencia creada para la utilización de base de datos , conección con maven-->
-	<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-	</dependency>
+		<!-- Dependencia creada para la utilización de base de datos , conexion con maven-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
 
-	<!-- Dependencia creada para la utilización de base de datos conexión con mysql-->
-	<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-	</dependency>
+		<!-- Dependencia creada para la utilización de base de datos conexión con mysql-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
