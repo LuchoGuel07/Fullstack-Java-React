@@ -49,7 +49,8 @@ public class UserController {
         
         //Creación para seguridad y tener la aplicación bien organizada y para saber para que se usa cada una de las clases
         UserDto createdUser = userService.createUser(userDto);
-
+        
+        // Copiar las propiedades de un objeto a otro.
         BeanUtils.copyProperties(createdUser, userReturnValue);
 
         return userReturnValue;
