@@ -6,7 +6,8 @@ import net.projectjava.backendjava.entities.UserEntity;
 
 public interface UserRepository extends CrudRepository<UserEntity, Long> {
     
-    public UserEntity findByUserID(String userID);
     
+    
+    UserEntity findByEmail(String email); //Metodo para buscar un usuario por email (Datos de UserEntity)
     
 }
