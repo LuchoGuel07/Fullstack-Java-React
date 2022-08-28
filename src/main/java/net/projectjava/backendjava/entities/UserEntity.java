@@ -16,6 +16,7 @@ public class UserEntity implements Serializable{
 
     //Definimos datos para la creación de los campos de la tabla de la base de datos
     @Id
+    // Una anotación JPA para definir la estrategia de generación de clave principal.
     @GeneratedValue
     private long id;
     

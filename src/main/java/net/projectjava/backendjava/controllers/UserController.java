@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.projectjava.backendjava.models.UserDetailRequestModel;
+import net.projectjava.backendjava.models.requests.UserDetailRequestModel;
 import net.projectjava.backendjava.models.responses.UserRest;
 import net.projectjava.backendjava.services.UserServiceInterface;
 import net.projectjava.backendjava.shared.dto.UserDto;

@@ -1,4 +1,4 @@
-package net.projectjava.backendjava.models;
+package net.projectjava.backendjava.models.requests;
 
 /**
  * Es un POJO que representa el cuerpo de la solicitud de una solicitud HTTP
